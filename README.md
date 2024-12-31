@@ -7,3 +7,7 @@ A GPU is not required but makes the responses faster.
 It's based on:
 - [Aider](https://aider.chat/)
 - [vLLM](https://docs.vllm.ai/en/latest/)
+
+
+### Backlog
+- [] improve Aider default prompts and prevent multiple completions due to "improperly formatted response"
