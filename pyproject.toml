@@ -17,11 +17,14 @@ classifiers = [
 python = "^3.12"
 vllm = "0.6.6.post1"
 aider-install = "0.1.2"
+click = "^8.1.8"
 
 [tool.poetry.urls]
 Homepage = "https://github.com/marcoscannabrava/deepseek-coder"
 Issues = "https://github.com/marcoscannabrava/deepseek-coder/issues"
 
+[tool.poetry.scripts]
+deepseek-coder = "deepseek_coder.deepseek_coder:run"
 
 [build-system]
 requires = ["poetry-core"]
