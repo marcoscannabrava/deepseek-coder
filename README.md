@@ -1,5 +1,7 @@
 # Deepseek Coder
 
+See [marcoscannabrava/local-llm](https://github.com/marcoscannabrava/local-llm) for a more recent and robust multi-model implementation leveraging the excellent [llm](https://github.com/simonw/llm) package.
+
 This package uses Deepseek Coder 1.3B Instruct-tuned Language Model for code generation in the terminal.
 
 A GPU is not required but makes the responses faster.
